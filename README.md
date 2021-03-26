@@ -112,4 +112,4 @@ And the following output should be shown
  ':)']
 ```
 
-## Step 2 - Normalising the data
+## Step 3 - Normalising the data
