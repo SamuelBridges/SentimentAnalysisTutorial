@@ -111,3 +111,5 @@ And the following output should be shown
  'week',
  ':)']
 ```
+
+## Step 2 - Normalising the data
