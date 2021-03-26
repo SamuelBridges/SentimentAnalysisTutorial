@@ -32,11 +32,11 @@ Import library and download data
 ```
 
 ## Step 2 - Tokenising the Data
-
+```
 Tokenising data refers to the act of splitting strings to create small tokens.
-
-A token could be something such as a noun, a verb, hashtags, links, or even emoticons / emojis. Tokenising works by splitting strings on whitespaces or punctuation.
-
+A token could be something such as a noun, a verb, hashtags, links, or even emoticons / emojis. 
+Tokenising works by splitting strings on whitespaces or punctuation.
+```
 Second, create a new file:
 
 `$ nano nlp_test.py`
