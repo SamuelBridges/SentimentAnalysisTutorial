@@ -25,11 +25,11 @@ Import library and download data
 
 `$ py`
 
-`>>> import nltk`
-
-`>>> nltk.download('twitter_samples')`
-
-`>>> exit()`
+```python
+>>> import nltk
+>>> nltk.download('twitter_samples')
+>>> exit()
+```
 
 ## Step 2 - Tokenising the Data
 
@@ -54,3 +54,8 @@ positive_tweets = twitter_samples.strings('positive_tweets.json')
 negative_tweets = twitter_samples.strings('negative_tweets.json')
 text = twitter_samples.strings('tweets.20150430-223406.json')
 ```
+
+Before tokenising, a resource called `punkt` will be downloaded. This resource is a pre-trained model which helps to tokenise the words and sentences.
+
+`$ py`
+
