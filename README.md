@@ -13,3 +13,6 @@ In this project, I will:
 1. Prepare a dataset of sample tweets provided by NLTK with different data cleaning methods
 2. Train a model on pre-classified tweets
 3. Use the model to classify the sample tweets into Negative and Positive Sentiment
+
+- [Step 1](https://github.com/SamuelBridges/SentimentAnalysisTutorial/blob/master/%5B1%5Dnlp_tokenise.py)
+- [Step 2](https://github.com/SamuelBridges/SentimentAnalysisTutorial/blob/master/%5B2%5Dnlp_normalise.py)
