@@ -28,8 +28,10 @@ In this project, I will:
 ## Test The Sentiment Analysis
 
 To use SentimentAnalysis.py, download the file then install the required modules as such:
-
-`$ py`
+```
+$ pip install nltk==3.3
+$ py
+```
 
 ```python
 >>> import nltk
