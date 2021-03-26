@@ -13,3 +13,15 @@ In this project, I will:
 1. Prepare a dataset of sample tweets provided by NLTK with different data cleaning methods
 2. Train a model on pre-classified tweets
 3. Use the model to classify the sample tweets into Negative and Positive Sentiment
+
+## Step 1 - Installing NLTK and Downloading Data
+Install NLTK Package using PIP
+
+`$ pip install nltk==3.3`
+
+Import library and download data
+
+`$ py`
+`>>> import nltk`
+`>>> nltk.download('twitter_samples')`
+`>>> exit()`
