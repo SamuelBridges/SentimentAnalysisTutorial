@@ -59,3 +59,55 @@ Before tokenising, a resource called `punkt` will be downloaded. This resource i
 
 `$ py`
 
+```python
+>>> import nltk
+>>> nltk.download('punkt)
+```
+
+Once downloaded, the tokeniser allows us to use the `.tokenized()` method. The next step is to tokenise the positive tweets.
+
+```python
+from nltk.corpus import twitter_samples
+
+positive_tweets = twitter_samples.strings('positive_tweets.json')
+negative_tweets = twitter_samples.strings('negative_tweets.json')
+text = twitter_samples.strings('tweets.20150430-223406.json')
+tweet_tokens = twitter_samples.tokenized('positive_tweets.json')
+```
+
+In order to see the tokenised list, a print must be added.
+
+```python
+from nltk.corpus import twitter_samples
+
+positive_tweets = twitter_samples.strings('positive_tweets.json')
+negative_tweets = twitter_samples.strings('negative_tweets.json')
+text = twitter_samples.strings('tweets.20150430-223406.json')
+tweet_tokens = twitter_samples.tokenized('positive_tweets.json')
+
+print(tweet_tokens[0])
+```
+
+Then run the python file
+
+`$ py nlp_test.py`
+
+And the following output should be shown
+
+```shell
+['#FollowFriday',
+ '@France_Inte',
+ '@PKuchly57',
+ '@Milipol_Paris',
+ 'for',
+ 'being',
+ 'top',
+ 'engaged',
+ 'members',
+ 'in',
+ 'my',
+ 'community',
+ 'this',
+ 'week',
+ ':)']
+```
