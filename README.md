@@ -14,12 +14,12 @@ In this project, I will:
 2. Train a model on pre-classified tweets
 3. Use the model to classify the sample tweets into Negative and Positive Sentiment
 
-- [Step 1 - Tokenisation](https://github.com/SamuelBridges/SentimentAnalysisTutorial/blob/master/%5B1%5Dnlp_tokenise.py)
-- [Step 2 - Normalisation](https://github.com/SamuelBridges/SentimentAnalysisTutorial/blob/master/%5B2%5Dnlp_normalise.py)
-- [Step 3 - Noise Removal](https://github.com/SamuelBridges/SentimentAnalysisTutorial/blob/master/%5B3%5Dnlp_remove_noise.py)
-- [Step 4 - Determine Word Density](https://github.com/SamuelBridges/SentimentAnalysisTutorial/blob/master/%5B4%5Dnlp_determine_word_density.py)
-- [Step 5 - Prepare Model Data](https://github.com/SamuelBridges/SentimentAnalysisTutorial/blob/master/%5B5%5Dnlp_prepare_model_data.py)
-- [Step 6 - Build Model And Test](https://github.com/SamuelBridges/SentimentAnalysisTutorial/blob/master/%5B6%5Dnlp_build_and_test.py)
+- [Step 1 - Tokenisation](https://github.com/SamuelBridges/SentimentAnalysisTutorial/blob/master/Steps/%5B1%5Dnlp_tokenise.py)
+- [Step 2 - Normalisation](https://github.com/SamuelBridges/SentimentAnalysisTutorial/blob/master/Steps/%5B2%5Dnlp_normalise.py)
+- [Step 3 - Noise Removal](https://github.com/SamuelBridges/SentimentAnalysisTutorial/blob/master/Steps/%5B3%5Dnlp_remove_noise.py)
+- [Step 4 - Determine Word Density](https://github.com/SamuelBridges/SentimentAnalysisTutorial/blob/master/Steps/%5B4%5Dnlp_determine_word_density.py)
+- [Step 5 - Prepare Model Data](https://github.com/SamuelBridges/SentimentAnalysisTutorial/blob/master/Steps/%5B5%5Dnlp_prepare_model_data.py)
+- [Step 6 - Build Model And Test](https://github.com/SamuelBridges/SentimentAnalysisTutorial/blob/master/Steps/%5B6%5Dnlp_build_and_test.py)
 
 ## Expected Results
-![Results](https://raw.githubusercontent.com/SamuelBridges/SentimentAnalysisTutorial/master/test_image.JPG)
+![Results](https://raw.githubusercontent.com/SamuelBridges/SentimentAnalysisTutorial/master/Steps/test_image.JPG)
