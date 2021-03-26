@@ -22,4 +22,23 @@ In this project, I will:
 - [Step 6 - Build Model And Test](https://github.com/SamuelBridges/SentimentAnalysisTutorial/blob/master/Steps/%5B6%5Dnlp_build_and_test.py)
 
 ## Expected Results
-![Results](https://raw.githubusercontent.com/SamuelBridges/SentimentAnalysisTutorial/master/Steps/test_image.JPG)
+![Results](https://raw.githubusercontent.com/SamuelBridges/SentimentAnalysisTutorial/master/test_image.JPG)
+
+
+## Test The Sentiment Analysis
+
+To use SentimentAnalysis.py, download the file then install the required modules as such:
+
+`$ py`
+
+```python
+>>> import nltk
+>>> nltk.download('twitter_samples')
+>>> nltk.download('punkt')
+>>> nltk.download('wordnet')
+>>> nltk.download('averaged_perceptron_tagger')
+>>> nltk.download('stopwords')
+```
+
+Once all are installed, [go to line 98](https://github.com/SamuelBridges/SentimentAnalysisTutorial/blob/ef20c1fdcf6d6d7b1b780e5764ff722177b20c20/SentimentAnalysis.py#L98) and replace the `REPLACE_ME` with a custom string to check if the sentiment is positive or negative.
+
