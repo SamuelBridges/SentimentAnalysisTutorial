@@ -22,6 +22,9 @@ Install NLTK Package using PIP
 Import library and download data
 
 `$ py`
+
 `>>> import nltk`
+
 `>>> nltk.download('twitter_samples')`
+
 `>>> exit()`
