@@ -40,5 +40,5 @@ To use SentimentAnalysis.py, download the file then install the required modules
 >>> nltk.download('stopwords')
 ```
 
-Once all are installed, [go to line 98](https://github.com/SamuelBridges/SentimentAnalysisTutorial/blob/ef20c1fdcf6d6d7b1b780e5764ff722177b20c20/SentimentAnalysis.py#L98) and replace the `REPLACE_ME` with a custom string to check if the sentiment is positive or negative.
+Then from shell run `$ python SentimentAnalysis.py` and input a tweet to check the sentiment.
 

@@ -93,9 +93,9 @@ classifier = NaiveBayesClassifier.train(train_data)
 
 def checkTweet(tweet):
     custom_tokens = remove_noise(word_tokenize(tweet))
-    print(tweet+": "+classifier.classify(dict([token, True] for token in custom_tokens)))
+    print("This tweet is "+classifier.classify(dict([token, True] for token in custom_tokens)))
 
-customTweet = "REPLACE_ME"
-
-checkTweet(customTweet)
+print("Enter tweet to check:")
+x = input()
+checkTweet(x)
 
