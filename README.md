@@ -22,4 +22,4 @@ In this project, I will:
 - [Step 6](https://github.com/SamuelBridges/SentimentAnalysisTutorial/blob/master/%5B6%5Dnlp_build_and_test.py)
 
 ## Expected Results
-![Results](test_image.jpg)
+![Results](https://raw.githubusercontent.com/SamuelBridges/SentimentAnalysisTutorial/master/test_image.JPG)
