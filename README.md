@@ -42,4 +42,4 @@ To use SentimentAnalysis.py, download the file then install the required modules
 
 Then from shell run `$ python SentimentAnalysis.py` and input a tweet to check the sentiment.
 
-![Example](https://raw.githubusercontent.com/SamuelBridges/SentimentAnalysisTutorial/master/example_usage.JPG)
+![Example](https://raw.githubusercontent.com/SamuelBridges/SentimentAnalysisTutorial/master/example_usage.jpg)
