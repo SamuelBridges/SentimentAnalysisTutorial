@@ -15,6 +15,8 @@ In this project, I will:
 3. Use the model to classify the sample tweets into Negative and Positive Sentiment
 
 ## Step 1 - Installing NLTK and Downloading Data
+First, install NLTK and download the sample data
+
 Install NLTK Package using PIP
 
 `$ pip install nltk==3.3`
@@ -28,3 +30,27 @@ Import library and download data
 `>>> nltk.download('twitter_samples')`
 
 `>>> exit()`
+
+## Step 2 - Tokenising the Data
+
+Tokenising data refers to the act of splitting strings to create small tokens.
+
+A token could be something such as a noun, a verb, hashtags, links, or even emoticons / emojis. Tokenising works by splitting strings on whitespaces or punctuation.
+
+Second, create a new file:
+
+`$ nano nlp_test.py`
+
+Then, import three sets of data to train and test the model
+
+- `negative_tweets.json`: 5000 tweets with negative sentiment
+- `positive_tweets.json`: 5000 tweets with positive sentiment
+- `tweets.20150430-223406.json`: 20000 tweets with no sentiments
+
+```python
+from nltk.corpus import twitter_samples
+
+positive_tweets = twitter_samples.strings('positive_tweets.json')
+negative_tweets = twitter_samples.strings('negative_tweets.json')
+text = twitter_samples.strings('tweets.20150430-223406.json')
+```
