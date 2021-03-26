@@ -18,4 +18,5 @@ In this project, I will:
 - [Step 2](https://github.com/SamuelBridges/SentimentAnalysisTutorial/blob/master/%5B2%5Dnlp_normalise.py)
 - [Step 3](https://github.com/SamuelBridges/SentimentAnalysisTutorial/blob/master/%5B3%5Dnlp_remove_noise.py)
 - [Step 4](https://github.com/SamuelBridges/SentimentAnalysisTutorial/blob/master/%5B4%5Dnlp_determine_word_density.py)
-- [Step 5]()
+- [Step 5](https://github.com/SamuelBridges/SentimentAnalysisTutorial/blob/master/%5B5%5Dnlp_prepare_model_data.py)
+- [Step 6]()
